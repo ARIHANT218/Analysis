@@ -5,9 +5,8 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
 # Load model and vectorizer
-model = joblib.load('sentiment_model.pkl')         # Your trained ML model
-vectorizer = joblib.load('tfidf_vectorizer.pkl')   # Your TF-IDF vectorizer
-
+model = joblib.load('sentiment_model.pkl')         
+vectorizer = joblib.load('tfidf_vectorizer.pkl')   
 # NLP tools
 stemmer = PorterStemmer()
 stop_words = set(stopwords.words('english'))
