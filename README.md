@@ -72,6 +72,8 @@ python src/evaluate.py
 * Logistic Regression: Baseline accuracy
 * XGBoost: Higher accuracy with boosting
 
+
+
 ## 📌 Requirements
 
 * Python 3.8+
@@ -86,6 +88,8 @@ import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 ```
+------------
+
 
 ## 🙌 Contributing
 
